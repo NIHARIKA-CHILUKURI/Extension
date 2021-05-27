@@ -1,0 +1,12 @@
+{
+    "name": "Site Blocker",
+    "version": "1.0",
+    "description": "Blocks particular requested sites",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent":true
+    },
+    
+    "manifest_version": 2
+}
